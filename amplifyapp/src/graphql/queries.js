@@ -12,8 +12,8 @@ export const getTodo = /* GraphQL */ `
     }
   }
 `;
-export const listTodos = /* GraphQL */ `
-  query ListTodos(
+export const listNotes = /* GraphQL */ `
+  query ListNotes(
     $filter: ModelTodoFilterInput
     $limit: Int
     $nextToken: String
